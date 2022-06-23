@@ -1,0 +1,145 @@
+.contact-page {
+  canvas {
+    @media (max-width: 800px) {
+      height: 60vh !important;
+    }
+  }
+}
+.contact {
+  .about-head-block-inner {
+    max-width: 1100px;
+  }
+  .about-globus img {
+    top: 10px;
+  }
+}
+
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 150px;
+  @media (max-width: 800px) {
+    gap: 25px;
+  }
+}
+address {
+  padding-right: 20px;
+  @media (max-width: 820px) {
+    padding-right: 0;
+  }
+  .footer-sub {
+    font-size: 16px;
+  }
+  span,
+  a {
+    font-family: $font3;
+    font-size: 20px;
+    color: $colorBlack;
+    margin-left: 10px;
+    display: inline-block;
+  }
+  span {
+    @media (max-width: 1366px) {
+      font-size: 17px;
+    }
+  }
+
+  .content-subtitle {
+    margin-bottom: 50px;
+    & ~ div {
+      margin-bottom: 68px;
+      display: flex;
+      align-items: baseline;
+      @media (max-width: 800px) {
+        margin-bottom: 25px;
+      }
+    }
+  }
+  a {
+    margin-right: 50px;
+    @media (max-width: 1600px) {
+      margin-right: 25px;
+    }
+    @media (max-width: 1440px) {
+      margin-right: 30px;
+    }
+    @media (max-width: 1366px) {
+      margin-right: 25px;
+      font-size: 18px;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+.mt60 {
+  @media (max-width: 800px) {
+    margin-top: 60px;
+  }
+}
+.contact-form {
+  textarea {
+    padding: 14px 0 4px 0;
+  }
+  .content-subtitle {
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  .m-t-70 {
+    margin-top: 75px;
+  }
+
+  .add-form-btn {
+    margin-top: 36px;
+
+    @media (max-width: 1440px) {
+      margin-top: 48px;
+    }
+  }
+}
+.map {
+  margin: 50px 0 120px 0;
+}
+.contact-social-wr {
+  @media (max-width: 820px) {
+    margin: auto;
+  }
+  a {
+    color: $colorBlue !important;
+    text-decoration: underline !important;
+    margin-left: 0 !important;
+    span {
+      color: inherit;
+      text-decoration: underline;
+    }
+    &:first-child {
+      span {
+        margin-left: 0 !important;
+      }
+    }
+  }
+}
+
+.contact-social {
+  span {
+    @media (max-width: 820px) {
+      display: none;
+    }
+  }
+  img {
+    width: auto;
+    margin-top: 20px;
+    @media (min-width: 820px) {
+      display: none;
+    }
+  }
+
+  @media (max-width: 820px) {
+    flex-direction: column;
+
+    a {
+      margin-left: 0;
+      margin-top: 15px;
+    }
+  }
+}

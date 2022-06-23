@@ -1,0 +1,33 @@
+@mixin df-j-a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@mixin main-title {
+  font-family: $font1;
+  font-size: 56px;
+  color: $colorWhite;
+  line-height: 68px;
+  @media (max-width: 1600px) {
+    font-size: 36px;
+  }
+  @media (max-width: 800px) {
+    font-size: 28px;
+    text-align: center;
+    font-family: $font3;
+    font-weight: 500;
+  }
+  @media (max-width:360px) {
+    font-size: 24px;
+  }
+}
+@mixin main-link {
+  font-family: $font1;
+  text-transform: uppercase;
+  color: $colorWhite;
+  background: #6683e9;
+  @media (max-width: 575px) {
+    font-family: $font3;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,98 @@
+$font1: "Neue Machina";
+$font2: "TT Hoves";
+$font3: "TT Hoves";
+$font4: "Gloss And Bloom";
+$colorWhite: #ffffff;
+$colorBlack: #000;
+$colorBlue: #6683e9;
+$colorGrey: #717171;
+$bgBlue: #6683e9;
+.container {
+  max-width: 1550px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  @media (max-width: 1600px) {
+    max-width: 1350px;
+  }
+  @media (max-width: 1366px) {
+    max-width: 1220px;
+  }
+  @media (max-width: 800px) {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .row {
+    --bs-gutter-x: 1rem;
+  }
+}
+.m-b-200 {
+  margin-bottom: 200px;
+  @media (max-width: 1440px) {
+    margin-bottom: 140px;
+  }
+  @media (max-width: 800px) {
+    margin-bottom: 100px;
+  }
+}
+.m-t-346 {
+  margin-top: 346px;
+  @media (max-width: 575px) {
+    margin-top: 1235px;
+  }
+
+  @media (max-width: 375px) {
+    margin-top: 1355px;
+  }
+  @media (max-width: 320px) {
+    margin-top: 1440px;
+  }
+}
+.m-t-200 {
+  margin-top: 200px;
+  @media (max-width: 800px) {
+    margin-top: 100px;
+  }
+}
+.m-t-40 {
+  margin-top: 40px;
+}
+.m-t-130 {
+  margin-top: 130px;
+}
+.page .m-t-130 {
+  margin-top: 0;
+}
+.m-t-120 {
+  margin-top: 120px;
+  @media (max-width: 800px) {
+    margin-top: 60px;
+  }
+}
+.m-b-20 {
+  margin-bottom: 20px;
+}
+.m-t-65 {
+  margin-top: 65px !important;
+}
+.m-t-115 {
+  margin-top: 115px;
+  text-align: right;
+  @media (max-width: 800px) {
+    margin-top: 80px;
+    text-align: left;
+  }
+}
+.m-t-70 {
+  margin-top: 70px;
+}
+.m-b-50 {
+  margin-bottom: 50px;
+}
+.m-b-120 {
+  margin-bottom: 120px;
+}
